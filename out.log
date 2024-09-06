@@ -1,0 +1,1053 @@
+0:00:00.000261643 1096249 0x55c28d98f200 INFO                GST_INIT gst.c:576:init_pre: Initializing GStreamer Core Library version 1.22.0
+0:00:00.000294098 1096249 0x55c28d98f200 INFO                GST_INIT gst.c:577:init_pre: Using library installed in /lib/x86_64-linux-gnu
+0:00:00.000312273 1096249 0x55c28d98f200 INFO                GST_INIT gst.c:595:init_pre: Linux carbon 6.1.0-23-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.99-1 (2024-07-15) x86_64
+0:00:00.000691181 1096249 0x55c28d98f200 INFO                GST_INIT gstmessage.c:129:_priv_gst_message_initialize: init messages
+0:00:00.001444005 1096249 0x55c28d98f200 INFO                GST_INIT gstcontext.c:86:_priv_gst_context_initialize: init contexts
+0:00:00.001773738 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:324:_priv_gst_plugin_initialize: registering 0 static plugins
+0:00:00.001913080 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:232:gst_plugin_register_static: registered static plugin "staticelements"
+0:00:00.001927351 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:234:gst_plugin_register_static: added static plugin "staticelements", result: 1
+0:00:00.001979542 1096249 0x55c28d98f200 INFO            GST_REGISTRY gstregistry.c:1836:ensure_current_registry: reading registry cache: /home/jfelmeden/.cache/gstreamer-1.0/registry.x86_64.bin
+0:00:00.010648986 1096249 0x55c28d98f200 INFO            GST_REGISTRY gstregistrybinary.c:683:priv_gst_registry_binary_read_cache: loaded /home/jfelmeden/.cache/gstreamer-1.0/registry.x86_64.bin in 0.008632 seconds
+0:00:00.010687291 1096249 0x55c28d98f200 INFO            GST_REGISTRY gstregistry.c:1703:scan_and_update_registry: Validating plugins from registry cache: /home/jfelmeden/.cache/gstreamer-1.0/registry.x86_64.bin
+0:00:00.011296585 1096249 0x55c28d98f200 INFO            GST_REGISTRY gstregistry.c:1795:scan_and_update_registry: Registry cache has not changed
+0:00:00.011299958 1096249 0x55c28d98f200 INFO            GST_REGISTRY gstregistry.c:1871:ensure_current_registry: registry reading and updating done
+0:00:00.011302891 1096249 0x55c28d98f200 INFO                GST_INIT gst.c:805:init_post: GLib runtime version: 2.74.6
+0:00:00.011304986 1096249 0x55c28d98f200 INFO                GST_INIT gst.c:807:init_post: GLib headers version: 2.74.5
+0:00:00.011306566 1096249 0x55c28d98f200 INFO                GST_INIT gst.c:809:init_post: initialized GStreamer successfully
+0:00:00.138664249 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstvideo4linux2.so" loaded
+0:00:00.140776236 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "v4l2src"
+0:00:00.140838800 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSrc@0x55c28db378e0> adding pad 'src'
+0:00:00.141411472 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstvideoconvertscale.so" loaded
+0:00:00.141721213 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "videoconvert"
+0:00:00.141744186 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x55c28dc48350> adding pad 'sink'
+0:00:00.141760633 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x55c28dc48350> adding pad 'src'
+0:00:00.141789823 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "videoscale"
+0:00:00.141805226 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x55c28dc34720> adding pad 'sink'
+0:00:00.141818529 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x55c28dc34720> adding pad 'src'
+0:00:00.142551684 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstcoreelements.so" loaded
+0:00:00.142602959 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "capsfilter"
+0:00:00.142630816 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x55c28dc4c1f0> adding pad 'sink'
+0:00:00.142645402 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x55c28dc4c1f0> adding pad 'src'
+0:00:00.144011507 1096249 0x55c28d98f200 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstavi.so" loaded
+0:00:00.144222763 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "avimux"
+0:00:00.144259479 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstAviMux@0x55c28dc50130> adding pad 'src'
+0:00:00.144424367 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "filesink"
+0:00:00.144446512 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSink@0x55c28dc55310> adding pad 'sink'
+0:00:00.144509360 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "tee"
+0:00:00.144537640 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstTee@0x55c28dc56000> adding pad 'sink'
+0:00:00.144637795 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:00.144673037 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x55c28dc58100> adding pad 'sink'
+0:00:00.144692954 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x55c28dc58100> adding pad 'src'
+0:00:00.144713430 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:00.144747419 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x55c28dc58400> adding pad 'sink'
+0:00:00.144765677 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x55c28dc58400> adding pad 'src'
+0:00:00.144786652 1096249 0x55c28d98f200 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "pipeline"
+0:00:00.144909991 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<tee> adding pad 'src_0'
+0:00:00.144931812 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad queue1:sink
+0:00:00.144988219 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link tee:src_0 and queue1:sink
+0:00:00.145014658 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<tee:sink> pad has no peer
+0:00:00.145037697 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:00.145056005 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked tee:src_0 and queue1:sink, successful
+0:00:00.145065716 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.145078545 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<tee:src_0> Received event on flushing pad. Discarding
+0:00:00.145093874 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad queue1:src
+0:00:00.145177550 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking tee:src_0(0x55c28dc64090) and queue1:sink(0x55c28dc3dc80)
+0:00:00.145198533 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked tee:src_0 and queue1:sink
+0:00:00.145232835 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element source:(any) to element convert:(any)
+0:00:00.145247464 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link source:src and convert:sink
+0:00:00.145269044 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<convert:src> pad has no peer
+0:00:00.145711406 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: source and convert in same bin, no need for ghost pads
+0:00:00.145729122 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link source:src and convert:sink
+0:00:00.145744507 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<convert:src> pad has no peer
+0:00:00.146081412 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked source:src and convert:sink, successful
+0:00:00.146091557 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.146109906 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<source:src> Received event on flushing pad. Discarding
+0:00:00.146130662 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element convert:(any) to element scale:(any)
+0:00:00.146147331 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link convert:src and scale:sink
+0:00:00.147307721 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<scale:src> pad has no peer
+0:00:00.147683388 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: convert and scale in same bin, no need for ghost pads
+0:00:00.147698174 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link convert:src and scale:sink
+0:00:00.148695255 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<scale:src> pad has no peer
+0:00:00.148977848 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked convert:src and scale:sink, successful
+0:00:00.148985172 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.148990882 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<convert:src> Received event on flushing pad. Discarding
+0:00:00.149005195 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element scale:(any) to element capsfilter:(any)
+0:00:00.149016391 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link scale:src and capsfilter:sink
+0:00:00.151739366 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<capsfilter:src> pad has no peer
+0:00:00.151758144 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: scale and capsfilter in same bin, no need for ghost pads
+0:00:00.151767541 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link scale:src and capsfilter:sink
+0:00:00.154065646 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<capsfilter:src> pad has no peer
+0:00:00.154085449 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked scale:src and capsfilter:sink, successful
+0:00:00.154091751 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.154096120 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<scale:src> Received event on flushing pad. Discarding
+0:00:00.154105561 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element capsfilter:(any) to element avimux:(any)
+0:00:00.156379568 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<avimux> adding pad 'video_0'
+0:00:00.156401211 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: capsfilter and avimux in same bin, no need for ghost pads
+0:00:00.156410304 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link capsfilter:src and avimux:video_0
+0:00:00.158343729 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked capsfilter:src and avimux:video_0, successful
+0:00:00.158348161 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.158351307 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<capsfilter:src> Received event on flushing pad. Discarding
+0:00:00.158357616 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element avimux:(any) to element tee:(any)
+0:00:00.158364175 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link avimux:src and tee:sink
+0:00:00.158371451 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<tee:src_0> pad has no peer
+0:00:00.158378432 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: avimux and tee in same bin, no need for ghost pads
+0:00:00.158383528 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link avimux:src and tee:sink
+0:00:00.158390190 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<tee:src_0> pad has no peer
+0:00:00.158398714 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked avimux:src and tee:sink, successful
+0:00:00.158401247 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.158405476 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<avimux:src> Received event on flushing pad. Discarding
+0:00:00.158412598 1096249 0x55c28d98f200 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element tee:(any) to element filesink:(any)
+0:00:00.158418332 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link tee:src_0 and filesink:sink
+0:00:00.158427714 1096249 0x55c28d98f200 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: tee and filesink in same bin, no need for ghost pads
+0:00:00.158433137 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link tee:src_0 and filesink:sink
+0:00:00.158441038 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked tee:src_0 and filesink:sink, successful
+0:00:00.158444091 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.158447899 1096249 0x55c28d98f200 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<tee:src_0> Received event on flushing pad. Discarding
+0:00:00.158460192 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.158481059 1096249 0x55c28d98f200 INFO                filesink gstfilesink.c:321:gst_file_sink_set_location:<filesink> filename : output.avi
+0:00:00.158485339 1096249 0x55c28d98f200 INFO                filesink gstfilesink.c:322:gst_file_sink_set_location:<filesink> uri      : file:///home/jfelmeden/projects/seescan/testing/gstreamer-test/output.avi
+0:00:00.158505643 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174098286 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to READY
+0:00:00.174104561 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174119818 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'filesink' changed state to 2(READY) successfully
+0:00:00.174125370 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<tee> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174128794 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<tee> completed state change to READY
+0:00:00.174131255 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<tee> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174134656 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'tee' changed state to 2(READY) successfully
+0:00:00.174138018 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avimux> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174141021 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avimux> completed state change to READY
+0:00:00.174143277 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avimux> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174146535 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'avimux' changed state to 2(READY) successfully
+0:00:00.174149728 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174152472 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter> completed state change to READY
+0:00:00.174154739 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174159646 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'capsfilter' changed state to 2(READY) successfully
+0:00:00.174163226 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<scale> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174165983 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<scale> completed state change to READY
+0:00:00.174168299 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<scale> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174171319 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'scale' changed state to 2(READY) successfully
+0:00:00.174174542 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<convert> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174177012 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<convert> completed state change to READY
+0:00:00.174179239 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<convert> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174182218 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'convert' changed state to 2(READY) successfully
+0:00:00.174184958 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<source> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174263270 1096249 0x55c28d98f200 INFO                    v4l2 v4l2_calls.c:588:gst_v4l2_open:<source:src> Opened device 'C270 HD WEBCAM' (/dev/video0) successfully
+0:00:00.174271032 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<source> completed state change to READY
+0:00:00.174273892 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<source> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174277568 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'source' changed state to 2(READY) successfully
+0:00:00.174281364 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue1> current NULL pending VOID_PENDING, desired next READY
+0:00:00.174284028 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue1> completed state change to READY
+0:00:00.174286441 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue1> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.174289565 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'queue1' changed state to 2(READY) successfully
+0:00:00.174296175 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2788:gst_element_continue_state:<test-pipeline> committing state from NULL to READY, pending PLAYING, next PAUSED
+0:00:00.174298754 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<test-pipeline> notifying about state-changed NULL to READY (PLAYING pending)
+0:00:00.174302009 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2796:gst_element_continue_state:<test-pipeline> continue state change READY to PAUSED, final PLAYING
+0:00:00.174311389 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174318604 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2942:gst_bin_change_state_func:<test-pipeline> child 'filesink' is changing state asynchronously to PAUSED
+0:00:00.174321884 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<tee> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174326087 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<tee> completed state change to PAUSED
+0:00:00.174328498 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<tee> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174331672 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'tee' changed state to 3(PAUSED) successfully
+0:00:00.174334467 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avimux> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174339777 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avimux> completed state change to PAUSED
+0:00:00.174342028 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avimux> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174345151 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'avimux' changed state to 3(PAUSED) successfully
+0:00:00.174347996 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174352512 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter> completed state change to PAUSED
+0:00:00.174354830 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174357940 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'capsfilter' changed state to 3(PAUSED) successfully
+0:00:00.174360931 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<scale> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174364493 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<scale> completed state change to PAUSED
+0:00:00.174366696 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<scale> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174369686 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'scale' changed state to 3(PAUSED) successfully
+0:00:00.174372308 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<convert> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174376032 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<convert> completed state change to PAUSED
+0:00:00.174378193 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<convert> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174381264 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'convert' changed state to 3(PAUSED) successfully
+0:00:00.174383652 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<source> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174395877 1096249 0x55c28d98f200 INFO                 basesrc gstbasesrc.c:1435:gst_base_src_do_seek:<source> seeking: time segment start=0:00:00.000000000, offset=0:00:00.000000000, stop=99:99:99.999999999, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.000000000, duration 99:99:99.999999999
+0:00:00.174418182 1096249 0x55c28d98f200 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 0x55c28dc3c130 on task 0x55c28dc6c050
+0:00:00.174420861 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:6330:gst_pad_start_task:<source:src> created task 0x55c28dc6c050
+0:00:00.174477952 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<source> completed state change to PAUSED
+0:00:00.174481177 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<source> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174484995 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2978:gst_bin_change_state_func:<test-pipeline> child 'source' changed state to 3(PAUSED) successfully without preroll
+0:00:00.174488432 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue1> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.174493265 1096249 0x55c28d98f200 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 0x55c28dc5c1e0 on task 0x55c28dc6c170
+0:00:00.174495654 1096249 0x55c28d98f200 INFO                GST_PADS gstpad.c:6330:gst_pad_start_task:<queue1:src> created task 0x55c28dc6c170
+0:00:00.174828181 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue1> completed state change to PAUSED
+0:00:00.174835244 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue1> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.174840663 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'queue1' changed state to 3(PAUSED) successfully
+0:00:00.174850318 1096249 0x55c28d98f200 INFO                pipeline gstpipeline.c:533:gst_pipeline_change_state:<test-pipeline> pipeline is live
+0:00:00.174850376 1096249 0x55c28dc2d800 INFO        GST_ELEMENT_PADS gstelement.c:1013:gst_element_get_static_pad: no such pad 'sink' in element "source"
+0:00:00.174857061 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2788:gst_element_continue_state:<test-pipeline> committing state from READY to PAUSED, pending PLAYING, next PLAYING
+0:00:00.174869104 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<test-pipeline> notifying about state-changed READY to PAUSED (PLAYING pending)
+0:00:00.174872290 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2796:gst_element_continue_state:<test-pipeline> continue state change PAUSED to PLAYING, final PLAYING
+0:00:00.174891076 1096249 0x55c28dc2d800 INFO                 v4l2src gstv4l2src.c:708:gst_v4l2src_query_preferred_size:<source> Detect input 0 as `Input 1`
+0:00:00.174905408 1096249 0x55c28d98f200 INFO               GST_EVENT gstevent.c:1557:gst_event_new_latency: creating latency event 0:00:00.000000000
+0:00:00.174908038 1096249 0x55c28dc2d800 INFO                    v4l2 gstv4l2object.c:1219:gst_v4l2_object_fill_format_list:<source:src> got 2 format(s):
+0:00:00.174912700 1096249 0x55c28dc2d800 INFO                    v4l2 gstv4l2object.c:1223:gst_v4l2_object_fill_format_list:<source:src>   YUYV
+0:00:00.174913445 1096249 0x55c28d98f200 INFO                     bin gstbin.c:2766:gst_bin_do_latency_func:<test-pipeline> configured latency of 0:00:00.000000000
+0:00:00.174917384 1096249 0x55c28dc2d800 INFO                    v4l2 gstv4l2object.c:1223:gst_v4l2_object_fill_format_list:<source:src>   MJPG
+0:00:00.174926110 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current READY pending PAUSED, desired next PLAYING
+0:00:00.174929397 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2942:gst_bin_change_state_func:<test-pipeline> child 'filesink' is changing state asynchronously to PLAYING
+0:00:00.174932658 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<tee> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.174935606 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<tee> completed state change to PLAYING
+0:00:00.174938159 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<tee> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.174941843 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'tee' changed state to 4(PLAYING) successfully
+0:00:00.174944976 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avimux> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.174948078 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avimux> completed state change to PLAYING
+0:00:00.174950539 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avimux> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.174953747 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'avimux' changed state to 4(PLAYING) successfully
+0:00:00.174956639 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.174959631 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter> completed state change to PLAYING
+0:00:00.174962042 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.174965367 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'capsfilter' changed state to 4(PLAYING) successfully
+0:00:00.174968807 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<scale> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.174972015 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<scale> completed state change to PLAYING
+0:00:00.174974423 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<scale> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.174977784 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'scale' changed state to 4(PLAYING) successfully
+0:00:00.174980887 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<convert> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.174983359 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<convert> completed state change to PLAYING
+0:00:00.174985631 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<convert> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.174989206 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'convert' changed state to 4(PLAYING) successfully
+0:00:00.174993105 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<source> completed state change to PLAYING
+0:00:00.174995478 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<source> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.174998507 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'source' changed state to 4(PLAYING) successfully
+0:00:00.175001296 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue1> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.175003696 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue1> completed state change to PLAYING
+0:00:00.175005946 1096249 0x55c28d98f200 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue1> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.175008902 1096249 0x55c28d98f200 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'queue1' changed state to 4(PLAYING) successfully
+Pipeline is playing. Capturing from device: /dev/video0
+Output file: output.avi
+0:00:00.175115648 1096249 0x55c28dc2d800 INFO                    v4l2 gstv4l2object.c:4738:gst_v4l2_object_probe_caps:<source:src> probed caps: video/x-raw, format=(string)YUY2, width=(int)1280, height=(int)960, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/2, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/2, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)1184, height=(int)656, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)960, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)1024, height=(int)576, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)960, height=(int)544, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)800, height=(int)600, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)864, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)800, height=(int)448, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)752, height=(int)416, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)640, height=(int)360, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)544, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)432, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)352, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)320, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)320, height=(int)176, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)176, height=(int)144, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; video/x-raw, format=(string)YUY2, width=(int)160, height=(int)120, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)1280, height=(int)960, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)1184, height=(int)656, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)960, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)1024, height=(int)576, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)960, height=(int)544, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)800, height=(int)600, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)864, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)800, height=(int)448, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)752, height=(int)416, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)640, height=(int)480, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)640, height=(int)360, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)544, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)432, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)352, height=(int)288, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)320, height=(int)240, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)320, height=(int)176, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)176, height=(int)144, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }; image/jpeg, width=(int)160, height=(int)120, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction){ 30/1, 25/1, 20/1, 15/1, 10/1, 5/1 }
+0:00:00.177546886 1096249 0x55c28dc2d800 INFO                 v4l2src gstv4l2src.c:854:gst_v4l2src_negotiate:<source> fixated to: video/x-raw, width=(int)640, height=(int)480, framerate=(fraction)30/1, format=(string)YUY2, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:16:1
+0:00:00.177552911 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, width=(int)640, height=(int)480, framerate=(fraction)30/1, format=(string)YUY2, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:16:1
+0:00:00.177861739 1096249 0x55c28dc2d800 INFO           basetransform gstbasetransform.c:1326:gst_base_transform_setcaps:<convert> reuse caps
+0:00:00.177873107 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, width=(int)640, height=(int)480, framerate=(fraction)30/1, format=(string)YUY2, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:16:1
+0:00:00.177914182 1096249 0x55c28dc2d800 INFO           basetransform gstbasetransform.c:1326:gst_base_transform_setcaps:<scale> reuse caps
+0:00:00.177920044 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, width=(int)640, height=(int)480, framerate=(fraction)30/1, format=(string)YUY2, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:16:1
+0:00:00.177928946 1096249 0x55c28dc2d800 INFO           basetransform gstbasetransform.c:1326:gst_base_transform_setcaps:<capsfilter> reuse caps
+0:00:00.177933219 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, width=(int)640, height=(int)480, framerate=(fraction)30/1, format=(string)YUY2, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:16:1
+0:00:00.177953163 1096249 0x55c28dc2d800 WARN                    v4l2 gstv4l2object.c:4410:gst_v4l2_object_set_crop:<source:src> VIDIOC_S_CROP failed
+0:00:00.181913751 1096249 0x55c28dc2d800 INFO                    v4l2 gstv4l2object.c:4005:gst_v4l2_object_set_format_full:<source:src> Set capture framerate to 30/1
+0:00:00.181939305 1096249 0x55c28dc2d800 WARN                    v4l2 gstv4l2object.c:3228:gst_v4l2_object_reset_compose_region:<source:src> Failed to get default compose rectangle with VIDIOC_G_SELECTION: Invalid argument
+0:00:00.181946237 1096249 0x55c28dc2d800 INFO                    v4l2 gstv4l2object.c:3164:gst_v4l2_object_setup_pool:<source:src> accessing buffers via mode 4
+0:00:00.182018035 1096249 0x55c28dc2d800 INFO          v4l2bufferpool gstv4l2bufferpool.c:586:gst_v4l2_buffer_pool_set_config:<source:pool0:src> increasing minimum buffers to 2
+0:00:00.182020694 1096249 0x55c28dc2d800 INFO          v4l2bufferpool gstv4l2bufferpool.c:599:gst_v4l2_buffer_pool_set_config:<source:pool0:src> reducing maximum buffers to 32
+0:00:00.182042675 1096249 0x55c28dc2d800 INFO          v4l2bufferpool gstv4l2bufferpool.c:599:gst_v4l2_buffer_pool_set_config:<source:pool0:src> reducing maximum buffers to 32
+0:00:00.182325128 1096249 0x55c28dc2d800 WARN          v4l2bufferpool gstv4l2bufferpool.c:848:gst_v4l2_buffer_pool_start:<source:pool0:src> Uncertain or not enough buffers, enabling copy threshold
+0:00:00.449187503 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:998:gst_event_new_segment: creating segment event time segment start=0:00:00.000000000, offset=0:00:00.000000000, stop=99:99:99.999999999, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.000000000, duration 99:99:99.999999999
+0:00:00.449278651 1096249 0x55c28dc2d800 INFO                 basesrc gstbasesrc.c:3023:gst_base_src_loop:<source> marking pending DISCONT
+0:00:00.449352499 1096249 0x55c28dc2d800 FIXME               basesink gstbasesink.c:3395:gst_base_sink_default_event:<filesink> stream-start event without group-id. Consider implementing group-id handling in the upstream elements
+0:00:00.449396953 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-msvideo
+0:00:00.449467567 1096249 0x55c28dc2d800 INFO               GST_EVENT gstevent.c:998:gst_event_new_segment: creating segment event bytes segment start=0, offset=0, stop=-1, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0, base=0, position 0, duration -1
+0:00:00.449546617 1096249 0x55c28dc2d800 INFO              GST_STATES gstbin.c:3413:bin_handle_async_done:<test-pipeline> setting state from PAUSED to PAUSED, pending PLAYING
+0:00:00.449568768 1096249 0x55c28dc2d800 INFO              GST_STATES gstbin.c:3435:bin_handle_async_done:<test-pipeline> continue state change, pending PLAYING
+0:00:00.449958058 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:3231:gst_bin_continue_func:<test-pipeline> continue state change PAUSED to PLAYING, final PLAYING
+0:00:00.450108845 1096249 0x55c28dc2d980 INFO               GST_EVENT gstevent.c:1557:gst_event_new_latency: creating latency event 0:00:00.000000000
+0:00:00.450162668 1096249 0x55c28dc2d980 INFO                     bin gstbin.c:2766:gst_bin_do_latency_func:<test-pipeline> configured latency of 0:00:00.000000000
+0:00:00.450215809 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.450241694 1096249 0x55c28dc2d980 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to PLAYING
+0:00:00.450254785 1096249 0x55c28dc2d980 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.450282228 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'filesink' changed state to 4(PLAYING) successfully
+0:00:00.450296748 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<tee> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450307614 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<tee> skipping transition from PLAYING to  PLAYING
+0:00:00.450318999 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'tee' changed state to 4(PLAYING) successfully
+0:00:00.450332322 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avimux> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450342962 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<avimux> skipping transition from PLAYING to  PLAYING
+0:00:00.450355215 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'avimux' changed state to 4(PLAYING) successfully
+0:00:00.450366942 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450376396 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<capsfilter> skipping transition from PLAYING to  PLAYING
+0:00:00.450386747 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'capsfilter' changed state to 4(PLAYING) successfully
+0:00:00.450399606 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<scale> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450409654 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<scale> skipping transition from PLAYING to  PLAYING
+0:00:00.450420292 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'scale' changed state to 4(PLAYING) successfully
+0:00:00.450432449 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<convert> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450441479 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<convert> skipping transition from PLAYING to  PLAYING
+0:00:00.450451113 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'convert' changed state to 4(PLAYING) successfully
+0:00:00.450462308 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<source> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450471311 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<source> skipping transition from PLAYING to  PLAYING
+0:00:00.450481189 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'source' changed state to 4(PLAYING) successfully
+0:00:00.450493262 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue1> current PLAYING pending VOID_PENDING, desired next PLAYING
+0:00:00.450502404 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2604:gst_bin_element_set_state:<queue1> skipping transition from PLAYING to  PLAYING
+0:00:00.450512187 1096249 0x55c28dc2d980 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<test-pipeline> child 'queue1' changed state to 4(PLAYING) successfully
+0:00:00.450526446 1096249 0x55c28dc2d980 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<test-pipeline> completed state change to PLAYING
+0:00:00.450537587 1096249 0x55c28dc2d980 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<test-pipeline> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.481158404 1096249 0x55c28dc2d800 WARN                 v4l2src gstv4l2src.c:1351:gst_v4l2src_create:<source> lost frames detected: count = 1 - ts: 0:00:00.274008991
+^C^C
+                                                                                              
+  ~/projects/seescan/testing/gstreamer-test                                           ✘ INT
+ gcc -o test_program webcam.c `pkg-config --cflags --libs gstreamer-1.0 gstreamer-base-1.0`
+                                                                                              
+  ~/projects/seescan/testing/gstreamer-test
+ ./test_program
+Could not open log file '/tmp/cli/gst.log' for writing: No such file or directory
+0:00:00.000200775 1102692 0x5627e8e35c00 INFO                GST_INIT gst.c:576:init_pre: Initializing GStreamer Core Library version 1.22.0
+0:00:00.000217503 1102692 0x5627e8e35c00 INFO                GST_INIT gst.c:577:init_pre: Using library installed in /lib/x86_64-linux-gnu
+0:00:00.000228882 1102692 0x5627e8e35c00 INFO                GST_INIT gst.c:595:init_pre: Linux carbon 6.1.0-23-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.99-1 (2024-07-15) x86_64
+0:00:00.000453492 1102692 0x5627e8e35c00 INFO                GST_INIT gstmessage.c:129:_priv_gst_message_initialize: init messages
+0:00:00.000849463 1102692 0x5627e8e35c00 INFO                GST_INIT gstcontext.c:86:_priv_gst_context_initialize: init contexts
+0:00:00.001038084 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:324:_priv_gst_plugin_initialize: registering 0 static plugins
+0:00:00.001117228 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:232:gst_plugin_register_static: registered static plugin "staticelements"
+0:00:00.001125179 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:234:gst_plugin_register_static: added static plugin "staticelements", result: 1
+0:00:00.001155608 1102692 0x5627e8e35c00 INFO            GST_REGISTRY gstregistry.c:1836:ensure_current_registry: reading registry cache: /home/jfelmeden/.cache/gstreamer-1.0/registry.x86_64.bin
+0:00:00.014568390 1102692 0x5627e8e35c00 INFO            GST_REGISTRY gstregistrybinary.c:683:priv_gst_registry_binary_read_cache: loaded /home/jfelmeden/.cache/gstreamer-1.0/registry.x86_64.bin in 0.013386 seconds
+0:00:00.014608770 1102692 0x5627e8e35c00 INFO            GST_REGISTRY gstregistry.c:1703:scan_and_update_registry: Validating plugins from registry cache: /home/jfelmeden/.cache/gstreamer-1.0/registry.x86_64.bin
+0:00:00.015455041 1102692 0x5627e8e35c00 INFO            GST_REGISTRY gstregistry.c:1795:scan_and_update_registry: Registry cache has not changed
+0:00:00.015459284 1102692 0x5627e8e35c00 INFO            GST_REGISTRY gstregistry.c:1871:ensure_current_registry: registry reading and updating done
+0:00:00.015463994 1102692 0x5627e8e35c00 INFO                GST_INIT gst.c:805:init_post: GLib runtime version: 2.74.6
+0:00:00.015467731 1102692 0x5627e8e35c00 INFO                GST_INIT gst.c:807:init_post: GLib headers version: 2.74.5
+0:00:00.015470282 1102692 0x5627e8e35c00 INFO                GST_INIT gst.c:809:init_post: initialized GStreamer successfully
+0:00:00.015484617 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gstparse.c:344:gst_parse_launch_full: parsing pipeline description 'videotestsrc ! video/x-raw,width=1920,height=1080,format=I420 ! clockoverlay ! x264enc tune=zerolatency bitrate=8000 ! tee name=vtee vtee. ! queue ! avdec_h264 ! videoconvert ! videoscale ! autovideosink vtee. ! queue name=vrecq ! avimux name=mux ! filesink async=false name=filesink'
+0:00:00.015995296 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstvideotestsrc.so" loaded
+0:00:00.016117090 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "videotestsrc"
+0:00:00.016130793 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSrc@0x5627e90d52e0> adding pad 'src'
+0:00:00.018783271 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstpango.so" loaded
+0:00:00.018893793 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "clockoverlay"
+0:00:00.018965212 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTextOverlay@0x5627e90f26b0> adding pad 'video_sink'
+0:00:00.018978832 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTextOverlay@0x5627e90f26b0> adding pad 'src'
+0:00:00.019473758 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:3123:x264_element_init: linked against x264 build: 164
+0:00:00.019477624 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:338:load_x264_libraries: 8-bit depth and 10-bit depth supported
+0:00:00.019493786 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstx264.so" loaded
+0:00:00.019596765 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "x264enc"
+0:00:00.019604009 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstVideoEncoder@0x5627e90fcdc0> adding pad 'sink'
+0:00:00.019608550 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstVideoEncoder@0x5627e90fcdc0> adding pad 'src'
+0:00:00.019819241 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstcoreelements.so" loaded
+0:00:00.019835349 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "tee"
+0:00:00.019846789 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstTee@0x5627e9104000> adding pad 'sink'
+0:00:00.019879512 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:00.019890787 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x5627e9108080> adding pad 'sink'
+0:00:00.019896475 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x5627e9108080> adding pad 'src'
+0:00:00.053105489 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_avs
+0:00:00.053160479 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_bfstm
+0:00:00.053171814 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_brstm
+0:00:00.053183312 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_daud
+0:00:00.053192934 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_dsf
+0:00:00.053202605 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_ea
+0:00:00.053213565 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_4xm
+0:00:00.053224941 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_gxf
+0:00:00.053235134 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_idcin
+0:00:00.053243248 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_iff
+0:00:00.053252622 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_ipmovie
+0:00:00.053268787 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_mm
+0:00:00.053276760 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_mmf
+0:00:00.053295182 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_nsv
+0:00:00.053303118 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_nut
+0:00:00.053323086 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_film_cpk
+0:00:00.053332651 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_smk
+0:00:00.053340897 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_sol
+0:00:00.053349969 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_psxstr
+0:00:00.053363999 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_vmd
+0:00:00.053374756 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_wc3movie
+0:00:00.053383523 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_wsaud
+0:00:00.053391577 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_wsvqa
+0:00:00.053401584 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_xwma
+0:00:00.053412209 1102692 0x5627e8e35c00 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_yuv4mpegpipe
+0:00:00.053591950 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstlibav.so" loaded
+0:00:00.053682401 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "avdec_h264"
+0:00:00.053697094 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstVideoDecoder@0x5627e91bec00> adding pad 'sink'
+0:00:00.053702754 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstVideoDecoder@0x5627e91bec00> adding pad 'src'
+0:00:00.054167260 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstvideoconvertscale.so" loaded
+0:00:00.054260769 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "videoconvert"
+0:00:00.054268312 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x5627e90f9190> adding pad 'sink'
+0:00:00.054274257 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x5627e90f9190> adding pad 'src'
+0:00:00.054286236 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "videoscale"
+0:00:00.054295056 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x5627e91cd0c0> adding pad 'sink'
+0:00:00.054299022 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x5627e91cd0c0> adding pad 'src'
+0:00:00.054417029 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstautodetect.so" loaded
+0:00:00.054431197 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "autovideosink"
+0:00:00.054487825 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<autovideosink0> adding pad 'sink'
+0:00:00.054528727 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "fakesink"
+0:00:00.054534295 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSink@0x5627e91d7b20> adding pad 'sink'
+0:00:00.054554743 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad fake-video-sink:sink
+0:00:00.054559018 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link sink:proxypad0 and fake-video-sink:sink
+0:00:00.054562640 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked sink:proxypad0 and fake-video-sink:sink, successful
+0:00:00.054564979 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.054579920 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:00.054586321 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x5627e9108380> adding pad 'sink'
+0:00:00.054591404 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstQueue@0x5627e9108380> adding pad 'src'
+0:00:00.054850103 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstavi.so" loaded
+0:00:00.054915216 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "avimux"
+0:00:00.054923855 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstAviMux@0x5627e91df140> adding pad 'src'
+0:00:00.054956038 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "filesink"
+0:00:00.054961806 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSink@0x5627e91e2290> adding pad 'sink'
+0:00:00.054970012 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "pipeline"
+0:00:00.055025921 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstVideoTestSrc named videotestsrc0 to some pad of GstClockOverlay named clockoverlay0 (0/0) with caps "video/x-raw, width=(int)1920, height=(int)1080, format=(string)I420"
+0:00:00.055029689 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "capsfilter"
+0:00:00.055046200 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x5627e91e6250> adding pad 'sink'
+0:00:00.055051640 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseTransform@0x5627e91e6250> adding pad 'src'
+0:00:00.055057596 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2069:gst_bin_get_state_func:<pipeline0> getting state
+0:00:00.055065578 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to NULL
+0:00:00.055071648 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055080331 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element videotestsrc0:(any) to element capsfilter0:sink
+0:00:00.055083196 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad capsfilter0:sink
+0:00:00.055087441 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: videotestsrc0 and capsfilter0 in same bin, no need for ghost pads
+0:00:00.055094023 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link videotestsrc0:src and capsfilter0:sink
+0:00:00.055103082 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<capsfilter0:src> pad has no peer
+0:00:00.055112865 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked videotestsrc0:src and capsfilter0:sink, successful
+0:00:00.055114556 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055116727 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<videotestsrc0:src> Received event on flushing pad. Discarding
+0:00:00.055122794 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element capsfilter0:src to element clockoverlay0:(any)
+0:00:00.055125519 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad capsfilter0:src
+0:00:00.055128967 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link capsfilter0:src and clockoverlay0:video_sink
+0:00:00.055138804 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<clockoverlay0:src> pad has no peer
+0:00:00.055163646 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: capsfilter0 and clockoverlay0 in same bin, no need for ghost pads
+0:00:00.055168047 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link capsfilter0:src and clockoverlay0:video_sink
+0:00:00.055177272 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<clockoverlay0:src> pad has no peer
+0:00:00.055200338 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked capsfilter0:src and clockoverlay0:video_sink, successful
+0:00:00.055202613 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055204467 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<capsfilter0:src> Received event on flushing pad. Discarding
+0:00:00.055211274 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstClockOverlay named clockoverlay0 to some pad of GstX264Enc named x264enc0 (0/0) with caps "(NULL)"
+0:00:00.055215636 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element clockoverlay0:(any) to element x264enc0:(any)
+0:00:00.055220062 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link clockoverlay0:src and x264enc0:sink
+0:00:00.055255155 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: clockoverlay0 and x264enc0 in same bin, no need for ghost pads
+0:00:00.055258959 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link clockoverlay0:src and x264enc0:sink
+0:00:00.055280019 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked clockoverlay0:src and x264enc0:sink, successful
+0:00:00.055283257 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055286053 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<clockoverlay0:src> Received event on flushing pad. Discarding
+0:00:00.055292402 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstX264Enc named x264enc0 to some pad of GstTee named vtee (0/0) with caps "(NULL)"
+0:00:00.055295818 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element x264enc0:(any) to element vtee:(any)
+0:00:00.055299424 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link x264enc0:src and vtee:sink
+0:00:00.055307240 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: x264enc0 and vtee in same bin, no need for ghost pads
+0:00:00.055311246 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link x264enc0:src and vtee:sink
+0:00:00.055315847 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked x264enc0:src and vtee:sink, successful
+0:00:00.055317996 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055319810 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<x264enc0:src> Received event on flushing pad. Discarding
+0:00:00.055325829 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:4384:gst_bin_get_by_name: [pipeline0]: looking up child element vtee
+0:00:00.055334013 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking pad  vtee of GstTee named vtee to some pad of GstQueue named queue0 (0/0) with caps "(NULL)"
+0:00:00.055337319 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element vtee:(any) to element queue0:(any)
+0:00:00.055342542 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:src> pad has no peer
+0:00:00.055356290 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<vtee> adding pad 'src_0'
+0:00:00.055361947 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: vtee and queue0 in same bin, no need for ghost pads
+0:00:00.055366110 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link vtee:src_0 and queue0:sink
+0:00:00.055373103 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:src> pad has no peer
+0:00:00.055376700 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked vtee:src_0 and queue0:sink, successful
+0:00:00.055378736 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055381364 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<vtee:src_0> Received event on flushing pad. Discarding
+0:00:00.055387878 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstQueue named queue0 to some pad of avdec_h264 named avdec_h264-0 (0/0) with caps "(NULL)"
+0:00:00.055392296 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element queue0:(any) to element avdec_h264-0:(any)
+0:00:00.055395934 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link queue0:src and avdec_h264-0:sink
+0:00:00.055406556 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<avdec_h264-0:src> pad has no peer
+0:00:00.055419233 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: queue0 and avdec_h264-0 in same bin, no need for ghost pads
+0:00:00.055424115 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link queue0:src and avdec_h264-0:sink
+0:00:00.055428894 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<avdec_h264-0:src> pad has no peer
+0:00:00.055436823 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked queue0:src and avdec_h264-0:sink, successful
+0:00:00.055439672 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055442074 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<queue0:src> Received event on flushing pad. Discarding
+0:00:00.055447342 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of avdec_h264 named avdec_h264-0 to some pad of GstVideoConvert named videoconvert0 (0/0) with caps "(NULL)"
+0:00:00.055450754 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element avdec_h264-0:(any) to element videoconvert0:(any)
+0:00:00.055455600 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link avdec_h264-0:src and videoconvert0:sink
+0:00:00.055460159 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<videoconvert0:src> pad has no peer
+0:00:00.055565690 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: avdec_h264-0 and videoconvert0 in same bin, no need for ghost pads
+0:00:00.055569940 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link avdec_h264-0:src and videoconvert0:sink
+0:00:00.055573652 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<videoconvert0:src> pad has no peer
+0:00:00.055658858 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked avdec_h264-0:src and videoconvert0:sink, successful
+0:00:00.055661062 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.055663441 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<avdec_h264-0:src> Received event on flushing pad. Discarding
+0:00:00.055669210 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstVideoConvert named videoconvert0 to some pad of GstVideoScale named videoscale0 (0/0) with caps "(NULL)"
+0:00:00.055672665 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element videoconvert0:(any) to element videoscale0:(any)
+0:00:00.055676809 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link videoconvert0:src and videoscale0:sink
+0:00:00.055989412 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<videoscale0:src> pad has no peer
+0:00:00.056088910 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: videoconvert0 and videoscale0 in same bin, no need for ghost pads
+0:00:00.056092913 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link videoconvert0:src and videoscale0:sink
+0:00:00.056402595 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<videoscale0:src> pad has no peer
+0:00:00.056486010 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked videoconvert0:src and videoscale0:sink, successful
+0:00:00.056488361 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.056491315 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<videoconvert0:src> Received event on flushing pad. Discarding
+0:00:00.056499279 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstVideoScale named videoscale0 to some pad of GstAutoVideoSink named autovideosink0 (0/0) with caps "(NULL)"
+0:00:00.056502637 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element videoscale0:(any) to element autovideosink0:(any)
+0:00:00.056506140 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link videoscale0:src and autovideosink0:sink
+0:00:00.057548751 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: videoscale0 and autovideosink0 in same bin, no need for ghost pads
+0:00:00.057554339 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link videoscale0:src and autovideosink0:sink
+0:00:00.058604954 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked videoscale0:src and autovideosink0:sink, successful
+0:00:00.058609063 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.058611551 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<videoscale0:src> Received event on flushing pad. Discarding
+0:00:00.058615667 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:4384:gst_bin_get_by_name: [pipeline0]: looking up child element vtee
+0:00:00.058624255 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking pad  vtee of GstTee named vtee to some pad of GstQueue named vrecq (0/0) with caps "(NULL)"
+0:00:00.058629793 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element vtee:(any) to element vrecq:(any)
+0:00:00.058634410 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<vrecq:src> pad has no peer
+0:00:00.058645864 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<vtee> adding pad 'src_1'
+0:00:00.058652218 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: vtee and vrecq in same bin, no need for ghost pads
+0:00:00.058655931 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link vtee:src_1 and vrecq:sink
+0:00:00.058660912 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<vrecq:src> pad has no peer
+0:00:00.058666502 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked vtee:src_1 and vrecq:sink, successful
+0:00:00.058668197 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.058670863 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<vtee:src_1> Received event on flushing pad. Discarding
+0:00:00.058676614 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstQueue named vrecq to some pad of GstAviMux named mux (0/0) with caps "(NULL)"
+0:00:00.058679922 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element vrecq:(any) to element mux:(any)
+0:00:00.058693314 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<mux> adding pad 'video_0'
+0:00:00.058697046 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: vrecq and mux in same bin, no need for ghost pads
+0:00:00.058700635 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link vrecq:src and mux:video_0
+0:00:00.058707443 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked vrecq:src and mux:video_0, successful
+0:00:00.058709476 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.058711705 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<vrecq:src> Received event on flushing pad. Discarding
+0:00:00.058716884 1102692 0x5627e8e35c00 INFO            GST_PIPELINE gst/parse/grammar.y:996:gst_parse_perform_link: linking some pad of GstAviMux named mux to some pad of GstFileSink named filesink (0/0) with caps "(NULL)"
+0:00:00.058720134 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstutils.c:1816:gst_element_link_pads_full: trying to link element mux:(any) to element filesink:(any)
+0:00:00.058723244 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1079:gst_pad_check_link: trying to link mux:src and filesink:sink
+0:00:00.058727542 1102692 0x5627e8e35c00 INFO                GST_PADS gstutils.c:1632:prepare_link_maybe_ghosting: mux and filesink in same bin, no need for ghost pads
+0:00:00.058732007 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link mux:src and filesink:sink
+0:00:00.058738379 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked mux:src and filesink:sink, successful
+0:00:00.058740381 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.058742664 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<mux:src> Received event on flushing pad. Discarding
+0:00:00.058750150 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:4384:gst_bin_get_by_name: [pipeline0]: looking up child element vrecq
+0:00:00.058759857 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad vrecq:src
+0:00:00.058766418 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:4384:gst_bin_get_by_name: [pipeline0]: looking up child element filesink
+Setting filesink location to '/tmp/test-000.avi'
+0:00:00.058820218 1102692 0x5627e8e35c00 INFO                filesink gstfilesink.c:321:gst_file_sink_set_location:<filesink> filename : /tmp/test-000.avi
+0:00:00.058823737 1102692 0x5627e8e35c00 INFO                filesink gstfilesink.c:322:gst_file_sink_set_location:<filesink> uri      : file:///tmp/test-000.avi
+0:00:00.058829550 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:4384:gst_bin_get_by_name: [pipeline0]: looking up child element mux
+0:00:00.058848916 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current NULL pending VOID_PENDING, desired next READY
+0:00:00.058907203 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to READY
+0:00:00.058911149 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.058923837 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'filesink' changed state to 2(READY) successfully
+0:00:00.058927967 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.058934149 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<fake-video-sink> completed state change to NULL
+0:00:00.058940009 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking sink:proxypad0(0x5627e91d4050) and fake-video-sink:sink(0x5627e91ce390)
+0:00:00.058944156 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked sink:proxypad0 and fake-video-sink:sink
+0:00:00.058948311 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<autovideosink0> removed child "fake-video-sink"
+0:00:00.058955600 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<fake-video-sink> removing pad 'sink'
+0:00:00.059677649 1102692 0x5627e8e35c00 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "/lib/x86_64-linux-gnu/gstreamer-1.0/libgstxvimagesink.so" loaded
+0:00:00.059741837 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "xvimagesink"
+0:00:00.059750133 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSink@0x5627e91f77b0> adding pad 'sink'
+0:00:00.059758056 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad autovideosink0-actual-sink-xvimage:sink
+0:00:00.067968025 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to READY
+0:00:00.067983590 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0-actual-sink-xvimage> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.068165661 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to NULL
+0:00:00.068174906 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0-actual-sink-xvimage> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:00.068210567 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad autovideosink0-actual-sink-xvimage:sink
+0:00:00.068216005 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link sink:proxypad0 and autovideosink0-actual-sink-xvimage:sink
+0:00:00.068220189 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked sink:proxypad0 and autovideosink0-actual-sink-xvimage:sink, successful
+0:00:00.068222800 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.068233611 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0-actual-sink-xvimage> current NULL pending VOID_PENDING, desired next READY
+0:00:00.068854699 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to READY
+0:00:00.068868600 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0-actual-sink-xvimage> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.068884703 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<autovideosink0> child 'autovideosink0-actual-sink-xvimage' changed state to 2(READY) successfully
+0:00:00.068897032 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0> completed state change to READY
+0:00:00.068904112 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.068913829 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'autovideosink0' changed state to 2(READY) successfully
+0:00:00.068924575 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<mux> current NULL pending VOID_PENDING, desired next READY
+0:00:00.068932508 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<mux> completed state change to READY
+0:00:00.068938501 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<mux> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.068947107 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'mux' changed state to 2(READY) successfully
+0:00:00.068955940 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoscale0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.068962443 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoscale0> completed state change to READY
+0:00:00.068968052 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoscale0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.068976334 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoscale0' changed state to 2(READY) successfully
+0:00:00.068984180 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vrecq> current NULL pending VOID_PENDING, desired next READY
+0:00:00.068990471 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vrecq> completed state change to READY
+0:00:00.068995797 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vrecq> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069003671 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vrecq' changed state to 2(READY) successfully
+0:00:00.069011595 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoconvert0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069017859 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoconvert0> completed state change to READY
+0:00:00.069023388 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069036784 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 2(READY) successfully
+0:00:00.069044815 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avdec_h264-0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069051701 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avdec_h264-0> completed state change to READY
+0:00:00.069057300 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069067945 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 2(READY) successfully
+0:00:00.069075775 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069082005 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue0> completed state change to READY
+0:00:00.069087650 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069095620 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 2(READY) successfully
+0:00:00.069103120 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vtee> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069109362 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vtee> completed state change to READY
+0:00:00.069114843 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vtee> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069122454 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vtee' changed state to 2(READY) successfully
+0:00:00.069129665 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<x264enc0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069136269 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<x264enc0> completed state change to READY
+0:00:00.069141813 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<x264enc0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069149449 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'x264enc0' changed state to 2(READY) successfully
+0:00:00.069156899 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<clockoverlay0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069164066 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<clockoverlay0> completed state change to READY
+0:00:00.069169492 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<clockoverlay0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069177204 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'clockoverlay0' changed state to 2(READY) successfully
+0:00:00.069185023 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069191263 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to READY
+0:00:00.069199380 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069207852 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 2(READY) successfully
+0:00:00.069214360 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videotestsrc0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.069220981 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videotestsrc0> completed state change to READY
+0:00:00.069226434 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videotestsrc0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.069234137 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videotestsrc0' changed state to 2(READY) successfully
+0:00:00.069243857 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2788:gst_element_continue_state:<pipeline0> committing state from NULL to READY, pending PLAYING, next PAUSED
+0:00:00.069249913 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed NULL to READY (PLAYING pending)
+0:00:00.069257490 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2796:gst_element_continue_state:<pipeline0> continue state change READY to PAUSED, final PLAYING
+0:00:00.069275092 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069287731 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to PAUSED
+0:00:00.069293771 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.069301474 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'filesink' changed state to 3(PAUSED) successfully
+0:00:00.069308761 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069319150 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0-actual-sink-xvimage> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069332607 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2942:gst_bin_change_state_func:<autovideosink0> child 'autovideosink0-actual-sink-xvimage' is changing state asynchronously to PAUSED
+0:00:00.069344347 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2942:gst_bin_change_state_func:<pipeline0> child 'autovideosink0' is changing state asynchronously to PAUSED
+0:00:00.069351859 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<mux> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069363267 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<mux> completed state change to PAUSED
+0:00:00.069369061 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<mux> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.069383353 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'mux' changed state to 3(PAUSED) successfully
+0:00:00.069391420 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoscale0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069402205 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoscale0> completed state change to PAUSED
+0:00:00.069408206 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoscale0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.069416340 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoscale0' changed state to 3(PAUSED) successfully
+0:00:00.069423744 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vrecq> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069446208 1102692 0x5627e8e35c00 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 0x5627e91ce8a0 on task 0x5627e91c04d0
+0:00:00.069454118 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:6330:gst_pad_start_task:<vrecq:src> created task 0x5627e91c04d0
+0:00:00.069514343 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vrecq> completed state change to PAUSED
+0:00:00.069522710 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vrecq> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.069532004 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vrecq' changed state to 3(PAUSED) successfully
+0:00:00.069540259 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoconvert0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069550159 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoconvert0> completed state change to PAUSED
+0:00:00.069556040 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.069564152 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 3(PAUSED) successfully
+0:00:00.069571024 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avdec_h264-0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.069991658 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avdec_h264-0> completed state change to PAUSED
+0:00:00.070000360 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070009909 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 3(PAUSED) successfully
+0:00:00.070018200 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.070031513 1102692 0x5627e8e35c00 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 0x5627e90d71c0 on task 0x5627e91c0290
+0:00:00.070038018 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:6330:gst_pad_start_task:<queue0:src> created task 0x5627e91c0290
+0:00:00.070095692 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue0> completed state change to PAUSED
+0:00:00.070103464 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070112866 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 3(PAUSED) successfully
+0:00:00.070121065 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vtee> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.070131619 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vtee> completed state change to PAUSED
+0:00:00.070137390 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vtee> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070145245 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vtee' changed state to 3(PAUSED) successfully
+0:00:00.070153273 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<x264enc0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.070165096 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<x264enc0> completed state change to PAUSED
+0:00:00.070171135 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<x264enc0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070182798 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'x264enc0' changed state to 3(PAUSED) successfully
+0:00:00.070190559 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<clockoverlay0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.070200418 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<clockoverlay0> completed state change to PAUSED
+0:00:00.070206392 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<clockoverlay0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070214817 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'clockoverlay0' changed state to 3(PAUSED) successfully
+0:00:00.070222302 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.070231910 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to PAUSED
+0:00:00.070237758 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070249717 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 3(PAUSED) successfully
+0:00:00.070256765 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videotestsrc0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.070285788 1102692 0x5627e8e35c00 INFO                 basesrc gstbasesrc.c:1435:gst_base_src_do_seek:<videotestsrc0> seeking: time segment start=0:00:00.000000000, offset=0:00:00.000000000, stop=99:99:99.999999999, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.000000000, duration 99:99:99.999999999
+0:00:00.070298983 1102692 0x5627e8e35c00 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 0x5627e90d6190 on task 0x5627e91c05f0
+0:00:00.070305507 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:6330:gst_pad_start_task:<videotestsrc0:src> created task 0x5627e91c05f0
+0:00:00.070354185 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videotestsrc0> completed state change to PAUSED
+0:00:00.070361757 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videotestsrc0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.070371850 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videotestsrc0' changed state to 3(PAUSED) successfully
+0:00:00.070381904 1102692 0x5627e8e35c00 INFO                pipeline gstpipeline.c:533:gst_pipeline_change_state:<pipeline0> pipeline is not live
+0:00:00.070385865 1102692 0x5627e90f4240 INFO        GST_ELEMENT_PADS gstelement.c:1013:gst_element_get_static_pad: no such pad 'sink' in element "videotestsrc0"
+0:00:00.070400317 1102692 0x5627e90f4240 FIXME                default gstutils.c:4031:gst_pad_create_stream_id_internal:<videotestsrc0:src> Creating random stream-id, consider implementing a deterministic way of creating a stream-id
+0:00:00.070414186 1102692 0x5627e90f4240 INFO         basetextoverlay gstbasetextoverlay.c:2529:gst_base_text_overlay_video_event:<clockoverlay0> video stream-start
+0:00:00.071357628 1102692 0x5627e90f4240 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, format=(string)I420, width=(int)1920, height=(int)1080, framerate=(fraction)30/1, multiview-mode=(string)mono, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive
+0:00:00.072184744 1102692 0x5627e90f4240 INFO           basetransform gstbasetransform.c:1326:gst_base_transform_setcaps:<capsfilter0> reuse caps
+0:00:00.072192847 1102692 0x5627e90f4240 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, format=(string)I420, width=(int)1920, height=(int)1080, framerate=(fraction)30/1, multiview-mode=(string)mono, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive
+0:00:00.073184847 1102692 0x5627e90f4240 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, format=(string)I420, width=(int)1920, height=(int)1080, framerate=(fraction)30/1, multiview-mode=(string)mono, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive
+0:00:00.073684579 1102692 0x5627e90f4240 INFO    encoderbitratemanager gstencoderbitrateprofilemanager.c:137:gst_encoder_bitrate_profile_manager_get_bitrate: No preset used, returning current bitrate
+0:00:00.073734349 1102692 0x5627e90f4240 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> using SAR=1/1
+0:00:00.074019167 1102692 0x5627e90f4240 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+0:00:00.076636737 1102692 0x5627e90f4240 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> profile High, level 4.0, 4:2:0, 8-bit
+0:00:00.076643839 1102692 0x5627e90f4240 INFO    encoderbitratemanager gstencoderbitrateprofilemanager.c:137:gst_encoder_bitrate_profile_manager_get_bitrate: No preset used, returning current bitrate
+0:00:00.077119063 1102692 0x5627e90f4240 INFO                 x264enc gstx264enc.c:1967:gst_x264_enc_parse_sei_userdata_unregistered:<x264enc0> SEI message received: payloadType = 5, payloadSize = 703 bits
+0:00:00.077125260 1102692 0x5627e90f4240 INFO                 x264enc gstx264enc.c:1984:gst_x264_enc_parse_sei_userdata_unregistered:<x264enc0> Using x264_encoder info: x264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=17 lookahead_threads=16 sliced_threads=1 slices=17 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=2 keyint=300 keyint_min=30 scenecut=40 intra_refresh=0 rc_lookahead=0 rc=cbr mbtree=0 bitrate=8000 ratetol=1.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=8000 vbv_bufsize=4800 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+0:00:00.077674787 1102692 0x5627e90f4240 INFO                 x264enc gstx264enc.c:2311:gst_x264_enc_set_latency:<x264enc0> Updating latency to 0:00:00.000000000 (0 frames)
+0:00:00.080833038 1102692 0x5627e90f4240 INFO               GST_EVENT gstevent.c:998:gst_event_new_segment: creating segment event time segment start=0:00:00.000000000, offset=0:00:00.000000000, stop=99:99:99.999999999, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.000000000, duration 99:99:99.999999999
+0:00:00.080851805 1102692 0x5627e90f4240 INFO                 basesrc gstbasesrc.c:3023:gst_base_src_loop:<videotestsrc0> marking pending DISCONT
+0:00:00.085502833 1102692 0x5627e90f4240 INFO               video-anc video-anc.c:929:gst_video_caption_meta_api_get_type: registering
+0:00:00.097142342 1102692 0x5627e90f4240 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, level=(string)4, profile=(string)high, width=(int)1920, height=(int)1080, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)30/1, interlace-mode=(string)progressive, colorimetry=(string)bt709, chroma-site=(string)mpeg2, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono
+0:00:00.097303428 1102692 0x5627e90f44c0 INFO                   libav :0:: Requested frame threading with a custom get_buffer2() implementation which is not marked as thread safe. This is not supported anymore, make your callback thread-safe.
+0:00:00.102546048 1102692 0x5627e90f4240 INFO               GST_EVENT gstevent.c:998:gst_event_new_segment: creating segment event time segment start=1000:00:00.000000000, offset=0:00:00.000000000, stop=99:99:99.999999999, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 1000:00:00.000000000, duration 99:99:99.999999999
+0:00:00.102599805 1102692 0x5627e90f44c0 INFO            videodecoder gstvideodecoder.c:1637:gst_video_decoder_sink_event_default:<avdec_h264-0> upstream tags: taglist, encoder=(string)x264, encoder-version=(uint)164, maximum-bitrate=(uint)8192000, nominal-bitrate=(uint)8192000;
+pad vrecq:src blocked!
+0:00:00.102840034 1102692 0x7f4998cf6430 INFO                   libav :0:: Reinit context to 1920x1088, pix_fmt: yuv420p
+0:00:00.309740325 1102692 0x5627e90f44c0 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, format=(string)I420, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, chroma-site=(string)mpeg2, colorimetry=(string)bt709, framerate=(fraction)30/1
+0:00:00.310191511 1102692 0x5627e90f44c0 INFO           basetransform gstbasetransform.c:1326:gst_base_transform_setcaps:<videoconvert0> reuse caps
+0:00:00.310213876 1102692 0x5627e90f44c0 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, format=(string)I420, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, chroma-site=(string)mpeg2, colorimetry=(string)bt709, framerate=(fraction)30/1
+0:00:00.310279989 1102692 0x5627e90f44c0 INFO           basetransform gstbasetransform.c:1326:gst_base_transform_setcaps:<videoscale0> reuse caps
+0:00:00.310290820 1102692 0x5627e90f44c0 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-raw, format=(string)I420, width=(int)1920, height=(int)1080, interlace-mode=(string)progressive, multiview-mode=(string)mono, multiview-flags=(GstVideoMultiviewFlagsSet)0:ffffffff:/right-view-first/left-flipped/left-flopped/right-flipped/right-flopped/half-aspect/mixed-mono, pixel-aspect-ratio=(fraction)1/1, chroma-site=(string)mpeg2, colorimetry=(string)bt709, framerate=(fraction)30/1
+0:00:00.365020615 1102692 0x5627e90f44c0 INFO            videodecoder gstvideodecoder.c:3718:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> First buffer since flush took 0:00:00.295426594 to produce
+0:00:00.396029193 1102692 0x5627e90f44c0 INFO              GST_STATES gstbin.c:3404:bin_handle_async_done:<autovideosink0> committing state from READY to PAUSED, old pending PAUSED
+0:00:00.396039497 1102692 0x5627e90f44c0 INFO              GST_STATES gstbin.c:3427:bin_handle_async_done:<autovideosink0> completed state change, pending VOID
+0:00:00.396044326 1102692 0x5627e90f44c0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.396051924 1102692 0x5627e90f44c0 INFO              GST_STATES gstbin.c:3404:bin_handle_async_done:<pipeline0> committing state from READY to PAUSED, old pending PLAYING
+0:00:00.396054833 1102692 0x5627e90f44c0 INFO              GST_STATES gstbin.c:3435:bin_handle_async_done:<pipeline0> continue state change, pending PLAYING
+0:00:00.396058551 1102692 0x5627e90f44c0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed READY to PAUSED (PLAYING pending)
+0:00:00.396159456 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:3231:gst_bin_continue_func:<pipeline0> continue state change PAUSED to PLAYING, final PLAYING
+0:00:00.396249037 1102692 0x5627e90f46a0 INFO               GST_EVENT gstevent.c:1557:gst_event_new_latency: creating latency event 0:00:00.000000000
+0:00:00.396271193 1102692 0x5627e90f46a0 INFO                     bin gstbin.c:2766:gst_bin_do_latency_func:<pipeline0> configured latency of 0:00:00.000000000
+0:00:00.396286338 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396291171 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to PLAYING
+0:00:00.396295308 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396302434 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'filesink' changed state to 4(PLAYING) successfully
+0:00:00.396305895 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396310854 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0-actual-sink-xvimage> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396315686 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to PLAYING
+0:00:00.396319478 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0-actual-sink-xvimage> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396326701 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<autovideosink0> child 'autovideosink0-actual-sink-xvimage' changed state to 4(PLAYING) successfully
+0:00:00.396331070 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0> completed state change to PLAYING
+0:00:00.396335270 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396341989 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'autovideosink0' changed state to 4(PLAYING) successfully
+0:00:00.396346461 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<mux> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396351422 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<mux> completed state change to PLAYING
+0:00:00.396355238 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<mux> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396361632 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'mux' changed state to 4(PLAYING) successfully
+0:00:00.396365556 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoscale0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396369250 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoscale0> completed state change to PLAYING
+0:00:00.396372941 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoscale0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396378601 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoscale0' changed state to 4(PLAYING) successfully
+0:00:00.396382394 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vrecq> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396385563 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vrecq> completed state change to PLAYING
+0:00:00.396389102 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vrecq> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396394642 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vrecq' changed state to 4(PLAYING) successfully
+0:00:00.396398752 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoconvert0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396401983 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoconvert0> completed state change to PLAYING
+0:00:00.396405238 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396411077 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 4(PLAYING) successfully
+0:00:00.396415227 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avdec_h264-0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396418956 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avdec_h264-0> completed state change to PLAYING
+0:00:00.396422172 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396427706 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 4(PLAYING) successfully
+0:00:00.396431720 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396434889 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue0> completed state change to PLAYING
+0:00:00.396438282 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396443718 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 4(PLAYING) successfully
+0:00:00.396447591 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vtee> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396450595 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vtee> completed state change to PLAYING
+0:00:00.396454004 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vtee> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396459328 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vtee' changed state to 4(PLAYING) successfully
+0:00:00.396463531 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<x264enc0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396467126 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<x264enc0> completed state change to PLAYING
+0:00:00.396470453 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<x264enc0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396476315 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'x264enc0' changed state to 4(PLAYING) successfully
+0:00:00.396480063 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<clockoverlay0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396484001 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<clockoverlay0> completed state change to PLAYING
+0:00:00.396487370 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<clockoverlay0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396493032 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'clockoverlay0' changed state to 4(PLAYING) successfully
+0:00:00.396497064 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396500373 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to PLAYING
+0:00:00.396503836 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396509227 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 4(PLAYING) successfully
+0:00:00.396512579 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videotestsrc0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:00.396516511 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videotestsrc0> completed state change to PLAYING
+0:00:00.396519693 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videotestsrc0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.396525142 1102692 0x5627e90f46a0 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videotestsrc0' changed state to 4(PLAYING) successfully
+0:00:00.396529016 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<pipeline0> completed state change to PLAYING
+0:00:00.396537547 1102692 0x5627e90f46a0 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:00.468260630 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.066666666 deadline:0:00:00.066666666 earliest_time:0:00:00.067719984
+0:00:00.628187173 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.200000000 deadline:0:00:00.200000000 earliest_time:0:00:00.233833149
+0:00:00.651432247 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.233333333 deadline:0:00:00.233333333 earliest_time:0:00:00.233833149
+0:00:00.758323708 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.333333333 deadline:0:00:00.333333333 earliest_time:0:00:00.379911209
+0:00:00.765378527 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.366666666 deadline:0:00:00.366666666 earliest_time:0:00:00.379911209
+0:00:00.861524862 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.466666666 deadline:0:00:00.466666666 earliest_time:0:00:00.468306468
+0:00:00.966696269 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.566666666 deadline:0:00:00.566666666 earliest_time:0:00:00.583462676
+0:00:01.095916942 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.700000000 deadline:0:00:00.700000000 earliest_time:0:00:00.702661609
+0:00:01.324375384 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.900000000 deadline:0:00:00.900000000 earliest_time:0:00:00.938955201
+0:00:01.358054490 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:00.933333333 deadline:0:00:00.933333333 earliest_time:0:00:00.938955201
+0:00:01.433319221 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:01.033333333 deadline:0:00:01.033333333 earliest_time:0:00:01.034424387
+0:00:01.788358794 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:01.400000000 deadline:0:00:01.400000000 earliest_time:0:00:01.411273643
+0:00:02.078189819 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:01.700000000 deadline:0:00:01.700000000 earliest_time:0:00:01.700441703
+0:00:02.260524901 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:01.866666666 deadline:0:00:01.866666666 earliest_time:0:00:01.872648306
+0:00:02.754499088 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:02.333333333 deadline:0:00:02.333333333 earliest_time:0:00:02.334108907
+0:00:03.019509239 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:02.633333333 deadline:0:00:02.633333333 earliest_time:0:00:02.646709071
+0:00:03.134925529 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:02.733333333 deadline:0:00:02.733333333 earliest_time:0:00:02.790995159
+0:00:03.137923392 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:02.766666666 deadline:0:00:02.766666666 earliest_time:0:00:02.790995159
+0:00:03.261120720 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:02.866666666 deadline:0:00:02.866666666 earliest_time:0:00:02.905311064
+0:00:03.283530473 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:02.900000000 deadline:0:00:02.900000000 earliest_time:0:00:02.905311064
+0:00:03.401926073 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.000000000 deadline:0:00:03.000000000 earliest_time:0:00:03.001633909
+0:00:03.631085634 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.233333333 deadline:0:00:03.233333333 earliest_time:0:00:03.235516823
+0:00:03.774488212 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.366666666 deadline:0:00:03.366666666 earliest_time:0:00:03.369109510
+0:00:03.969832564 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.566666666 deadline:0:00:03.566666666 earliest_time:0:00:03.578411280
+0:00:04.070798869 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.666666666 deadline:0:00:03.666666666 earliest_time:0:00:03.678721628
+0:00:04.276073708 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.866666666 deadline:0:00:03.866666666 earliest_time:0:00:03.955116838
+0:00:04.278424387 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.900000000 deadline:0:00:03.900000000 earliest_time:0:00:03.955116838
+0:00:04.284007566 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:03.933333333 deadline:0:00:03.933333333 earliest_time:0:00:03.955116838
+0:00:04.432939616 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.033333333 deadline:0:00:04.033333333 earliest_time:0:00:04.064022991
+0:00:04.482844828 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.100000000 deadline:0:00:04.100000000 earliest_time:0:00:04.107134787
+0:00:04.642558760 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.200000000 deadline:0:00:04.200000000 earliest_time:0:00:04.211580281
+0:00:04.662698965 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.266666666 deadline:0:00:04.266666666 earliest_time:0:00:04.298091582
+0:00:04.798509711 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.366666666 deadline:0:00:04.366666666 earliest_time:0:00:04.380496480
+0:00:04.841846643 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.433333333 deadline:0:00:04.433333333 earliest_time:0:00:04.459921027
+0:00:04.880215607 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.500000000 deadline:0:00:04.500000000 earliest_time:0:00:04.519767965
+0:00:05.005313100 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.600000000 deadline:0:00:04.600000000 earliest_time:0:00:04.608130695
+0:00:05.046884806 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.666666666 deadline:0:00:04.666666666 earliest_time:0:00:04.672498430
+0:00:05.166511538 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.766666666 deadline:0:00:04.766666666 earliest_time:0:00:04.781535080
+0:00:05.315974687 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:04.933333333 deadline:0:00:04.933333333 earliest_time:0:00:04.941290109
+0:00:06.495806549 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:06.100000000 deadline:0:00:06.100000000 earliest_time:0:00:06.110137963
+0:00:06.624208653 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:06.233333333 deadline:0:00:06.233333333 earliest_time:0:00:06.262003111
+0:00:06.746332496 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:06.366666666 deadline:0:00:06.366666666 earliest_time:0:00:06.377378278
+0:00:07.291649025 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:06.900000000 deadline:0:00:06.900000000 earliest_time:0:00:06.929525149
+0:00:07.630741031 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.233333333 deadline:0:00:07.233333333 earliest_time:0:00:07.267120753
+0:00:07.652213746 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.266666666 deadline:0:00:07.266666666 earliest_time:0:00:07.267120753
+0:00:07.766443677 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.366666666 deadline:0:00:07.366666666 earliest_time:0:00:07.374429306
+0:00:07.916309165 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.533333333 deadline:0:00:07.533333333 earliest_time:0:00:07.554745101
+0:00:08.026001750 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.633333333 deadline:0:00:07.633333333 earliest_time:0:00:07.658816983
+0:00:08.163984514 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.733333333 deadline:0:00:07.733333333 earliest_time:0:00:07.751270335
+0:00:08.204192363 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.800000000 deadline:0:00:07.800000000 earliest_time:0:00:07.808223619
+0:00:08.267763564 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.866666666 deadline:0:00:07.866666666 earliest_time:0:00:07.882727748
+0:00:08.320007317 1102692 0x5627e90f44c0 WARN            videodecoder gstvideodecoder.c:3668:gst_video_decoder_clip_and_push_buf:<avdec_h264-0> Dropping frame due to QoS. start:1000:00:07.933333333 deadline:0:00:07.933333333 earliest_time:0:00:07.937380557
+0:00:09.815609160 1102692 0x5627e90f4400 WARN             xvimagesink xvimagesink.c:586:gst_xv_image_sink_handle_xevents:<autovideosink0-actual-sink-xvimage> error: Output window was closed
+0:00:09.815642114 1102692 0x5627e90f4400 INFO        GST_ERROR_SYSTEM gstelement.c:2281:gst_element_message_full_with_details:<autovideosink0-actual-sink-xvimage> posting message: Output window was closed
+0:00:09.815675587 1102692 0x5627e90f4400 INFO        GST_ERROR_SYSTEM gstelement.c:2308:gst_element_message_full_with_details:<autovideosink0-actual-sink-xvimage> posted error message: Output window was closed
+Error! autovideosink0-actual-sink-xvimage
+0:00:09.815801983 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815815372 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to PAUSED
+0:00:09.815823610 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.815838908 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'filesink' changed state to 3(PAUSED) successfully
+0:00:09.815847903 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815859650 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0-actual-sink-xvimage> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815872629 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2942:gst_bin_change_state_func:<autovideosink0> child 'autovideosink0-actual-sink-xvimage' is changing state asynchronously to PAUSED
+0:00:09.815881224 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2942:gst_bin_change_state_func:<pipeline0> child 'autovideosink0' is changing state asynchronously to PAUSED
+0:00:09.815888835 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<mux> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815896276 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<mux> completed state change to PAUSED
+0:00:09.815902559 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<mux> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.815911470 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'mux' changed state to 3(PAUSED) successfully
+0:00:09.815918811 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoscale0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815924935 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoscale0> completed state change to PAUSED
+0:00:09.815930572 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoscale0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.815938607 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoscale0' changed state to 3(PAUSED) successfully
+0:00:09.815945995 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vrecq> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815952214 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vrecq> completed state change to PAUSED
+0:00:09.815957635 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vrecq> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.815965386 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vrecq' changed state to 3(PAUSED) successfully
+0:00:09.815972434 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoconvert0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.815978724 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoconvert0> completed state change to PAUSED
+0:00:09.815984104 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.815992236 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 3(PAUSED) successfully
+0:00:09.815999059 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avdec_h264-0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816005813 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avdec_h264-0> completed state change to PAUSED
+0:00:09.816011214 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816018640 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 3(PAUSED) successfully
+0:00:09.816025613 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816031535 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue0> completed state change to PAUSED
+0:00:09.816036758 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816044479 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 3(PAUSED) successfully
+0:00:09.816053381 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vtee> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816059785 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vtee> completed state change to PAUSED
+0:00:09.816065307 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vtee> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816073159 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vtee' changed state to 3(PAUSED) successfully
+0:00:09.816080539 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<x264enc0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816087247 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<x264enc0> completed state change to PAUSED
+0:00:09.816092003 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<x264enc0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816100619 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'x264enc0' changed state to 3(PAUSED) successfully
+0:00:09.816109287 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<clockoverlay0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816117989 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<clockoverlay0> completed state change to PAUSED
+0:00:09.816126791 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<clockoverlay0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816135389 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'clockoverlay0' changed state to 3(PAUSED) successfully
+0:00:09.816143372 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816150077 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to PAUSED
+0:00:09.816155779 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816164689 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 3(PAUSED) successfully
+0:00:09.816170838 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videotestsrc0> current PLAYING pending VOID_PENDING, desired next PAUSED
+0:00:09.816176788 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videotestsrc0> completed state change to PAUSED
+0:00:09.816181401 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videotestsrc0> notifying about state-changed PLAYING to PAUSED (VOID_PENDING pending)
+0:00:09.816188337 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videotestsrc0' changed state to 3(PAUSED) successfully
+0:00:09.816195615 1102692 0x5627e8e35c00 INFO                pipeline gstpipeline.c:533:gst_pipeline_change_state:<pipeline0> pipeline is not live
+0:00:09.816201948 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:3119:gst_element_change_state:<pipeline0> forcing commit state NULL <= READY
+0:00:09.816207150 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2788:gst_element_continue_state:<pipeline0> committing state from PLAYING to PAUSED, pending NULL, next READY
+0:00:09.816211984 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed PLAYING to PAUSED (NULL pending)
+0:00:09.816218530 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2796:gst_element_continue_state:<pipeline0> continue state change PAUSED to READY, final NULL
+0:00:09.816235278 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current PAUSED pending VOID_PENDING, desired next READY
+0:00:09.816248257 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to READY
+0:00:09.816253225 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:09.816260721 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'filesink' changed state to 2(READY) successfully
+0:00:09.816266960 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0> current PLAYING pending PAUSED, desired next READY
+0:00:09.816275926 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0-actual-sink-xvimage> current PLAYING pending PAUSED, desired next READY
+0:00:09.816298483 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to READY
+0:00:09.816304177 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0-actual-sink-xvimage> notifying about state-changed PLAYING to READY (VOID_PENDING pending)
+0:00:09.816311720 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<autovideosink0> child 'autovideosink0-actual-sink-xvimage' changed state to 2(READY) successfully
+0:00:09.816325044 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0> completed state change to READY
+0:00:09.816330219 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0> notifying about state-changed PLAYING to READY (VOID_PENDING pending)
+0:00:09.816338336 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'autovideosink0' changed state to 2(READY) successfully
+0:00:09.816345809 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<mux> current PAUSED pending VOID_PENDING, desired next READY
+0:00:09.816363788 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<mux> completed state change to READY
+0:00:09.816369971 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<mux> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:09.816377778 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'mux' changed state to 2(READY) successfully
+0:00:09.816384455 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoscale0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:09.816398488 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoscale0> completed state change to READY
+0:00:09.816403525 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoscale0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:09.816410618 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoscale0' changed state to 2(READY) successfully
+0:00:09.816416994 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vrecq> current PAUSED pending VOID_PENDING, desired next READY
+0:00:09.816554312 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vrecq> completed state change to READY
+0:00:09.816566462 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vrecq> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:09.816579137 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vrecq' changed state to 2(READY) successfully
+0:00:09.816588941 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoconvert0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:09.816602815 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoconvert0> completed state change to READY
+0:00:09.816608100 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:09.816615768 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 2(READY) successfully
+0:00:09.816622632 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avdec_h264-0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:09.844520858 1102692 0x5627e90f44c0 INFO                    task gsttask.c:368:gst_task_func:<queue0:src> Task going to paused
+0:00:09.844547323 1102692 0x5627e90f4240 INFO                 basesrc gstbasesrc.c:3042:gst_base_src_loop:<videotestsrc0> pausing after gst_pad_push() = flushing
+0:00:09.844562405 1102692 0x5627e90f4240 INFO                    task gsttask.c:368:gst_task_func:<videotestsrc0:src> Task going to paused
+0:00:10.018509095 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avdec_h264-0> completed state change to READY
+0:00:10.018523841 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.018535340 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 2(READY) successfully
+0:00:10.018544471 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:10.018588285 1102692 0x5627e90f44c0 INFO                    task gsttask.c:370:gst_task_func:<queue0:src> Task resume from paused
+0:00:10.018633522 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue0> completed state change to READY
+0:00:10.018637410 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.018641815 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 2(READY) successfully
+0:00:10.018646077 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vtee> current PAUSED pending VOID_PENDING, desired next READY
+0:00:10.018654050 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vtee> completed state change to READY
+0:00:10.018657010 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vtee> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.018661023 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vtee' changed state to 2(READY) successfully
+0:00:10.018665737 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<x264enc0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:10.019055458 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> frame I:4     Avg QP:18.62  size: 55048
+0:00:10.019064565 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> frame P:326   Avg QP:24.31  size: 33774
+0:00:10.019070685 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> mb I  I16..4: 78.8% 16.9%  4.3%
+0:00:10.019077262 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> mb P  I16..4:  0.1%  5.5%  1.2%  P16..4:  0.2%  0.1%  0.0%  0.0%  0.0%    skip:93.0%
+0:00:10.019081788 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> 8x8 transform intra:71.5% inter:17.8%
+0:00:10.019086990 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> coded y,uvDC,uvAC intra: 80.1% 0.5% 0.3% inter: 0.1% 0.0% 0.0%
+0:00:10.019091267 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> i16 v,h,dc,p: 64%  4% 32%  0%
+0:00:10.019097640 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  4%  4% 68%  5%  3%  3%  3%  4%  4%
+0:00:10.019102351 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13%  4% 37%  9%  8%  8%  8%  7%  7%
+0:00:10.019106104 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> i8c dc,h,v,p: 97%  1%  2%  0%
+0:00:10.019109653 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> Weighted P-Frames: Y:0.0% UV:0.0%
+0:00:10.019114054 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> ref P L0: 64.3%  2.0% 19.0% 14.8%
+0:00:10.019117555 1102692 0x5627e8e35c00 INFO                 x264enc gstx264enc.c:1274:gst_x264_enc_log_callback:<x264enc0> kb/s:8167.61
+0:00:10.019767916 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<x264enc0> completed state change to READY
+0:00:10.019775348 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<x264enc0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.019788901 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'x264enc0' changed state to 2(READY) successfully
+0:00:10.019797005 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<clockoverlay0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:10.019814270 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<clockoverlay0> completed state change to READY
+0:00:10.019817585 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<clockoverlay0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.019821767 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'clockoverlay0' changed state to 2(READY) successfully
+0:00:10.019826257 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:10.019835474 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to READY
+0:00:10.019838598 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.019842176 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 2(READY) successfully
+0:00:10.019845450 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videotestsrc0> current PAUSED pending VOID_PENDING, desired next READY
+0:00:10.019862161 1102692 0x5627e90f4240 INFO                    task gsttask.c:370:gst_task_func:<videotestsrc0:src> Task resume from paused
+0:00:10.019998818 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videotestsrc0> completed state change to READY
+0:00:10.020002091 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videotestsrc0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:10.020006111 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videotestsrc0' changed state to 2(READY) successfully
+0:00:10.020013034 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2788:gst_element_continue_state:<pipeline0> committing state from PAUSED to READY, pending NULL, next NULL
+0:00:10.020016321 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed PAUSED to READY (NULL pending)
+0:00:10.020020409 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2796:gst_element_continue_state:<pipeline0> continue state change READY to NULL, final NULL
+0:00:10.020033917 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<filesink> current READY pending VOID_PENDING, desired next NULL
+0:00:10.020045501 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<filesink> completed state change to NULL
+0:00:10.020049102 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<filesink> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.020053110 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'filesink' changed state to 1(NULL) successfully
+0:00:10.020056670 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.020062893 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<autovideosink0-actual-sink-xvimage> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072257073 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to NULL
+0:00:10.072293763 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0-actual-sink-xvimage> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072327426 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<autovideosink0> child 'autovideosink0-actual-sink-xvimage' changed state to 1(NULL) successfully
+0:00:10.072359584 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0-actual-sink-xvimage> completed state change to NULL
+0:00:10.072386189 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking sink:proxypad0(0x5627e91d4050) and autovideosink0-actual-sink-xvimage:sink(0x5627e91cf610)
+0:00:10.072403644 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked sink:proxypad0 and autovideosink0-actual-sink-xvimage:sink
+0:00:10.072414416 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<autovideosink0> removed child "autovideosink0-actual-sink-xvimage"
+0:00:10.072455801 1102692 0x5627e8e35c00 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "fakesink"
+0:00:10.072512228 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:758:gst_element_add_pad:<GstBaseSink@0x5627e91eb2c0> adding pad 'sink'
+0:00:10.072553673 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:1016:gst_element_get_static_pad: found pad fake-video-sink:sink
+0:00:10.072575828 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2387:gst_pad_link_prepare: trying to link sink:proxypad0 and fake-video-sink:sink
+0:00:10.072592408 1102692 0x5627e8e35c00 INFO                GST_PADS gstpad.c:2595:gst_pad_link_full: linked sink:proxypad0 and fake-video-sink:sink, successful
+0:00:10.072602548 1102692 0x5627e8e35c00 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:10.072617830 1102692 0x5627e8e35c00 INFO               GST_EVENT gstpad.c:5985:gst_pad_send_event_unchecked:<sink:proxypad0> Received event on flushing pad. Discarding
+0:00:10.072628732 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<autovideosink0> completed state change to NULL
+0:00:10.072642445 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<autovideosink0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072663440 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'autovideosink0' changed state to 1(NULL) successfully
+0:00:10.072682910 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<mux> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072708409 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<mux> completed state change to NULL
+0:00:10.072722246 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<mux> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072739889 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'mux' changed state to 1(NULL) successfully
+0:00:10.072756770 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoscale0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072771984 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoscale0> completed state change to NULL
+0:00:10.072784269 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoscale0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072799961 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoscale0' changed state to 1(NULL) successfully
+0:00:10.072814727 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vrecq> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072828150 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vrecq> completed state change to NULL
+0:00:10.072839748 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vrecq> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072854876 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vrecq' changed state to 1(NULL) successfully
+0:00:10.072869473 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videoconvert0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072883392 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videoconvert0> completed state change to NULL
+0:00:10.072894980 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072909624 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 1(NULL) successfully
+0:00:10.072923303 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<avdec_h264-0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072938099 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<avdec_h264-0> completed state change to NULL
+0:00:10.072949995 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.072964822 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 1(NULL) successfully
+0:00:10.072978954 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<queue0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.072992368 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<queue0> completed state change to NULL
+0:00:10.073004175 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<queue0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073019449 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 1(NULL) successfully
+0:00:10.073034499 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<vtee> current READY pending VOID_PENDING, desired next NULL
+0:00:10.073049540 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<vtee> completed state change to NULL
+0:00:10.073061132 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<vtee> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073077090 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'vtee' changed state to 1(NULL) successfully
+0:00:10.073091558 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<x264enc0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.073106728 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<x264enc0> completed state change to NULL
+0:00:10.073119092 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<x264enc0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073135510 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'x264enc0' changed state to 1(NULL) successfully
+0:00:10.073150278 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<clockoverlay0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.073166121 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<clockoverlay0> completed state change to NULL
+0:00:10.073177985 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<clockoverlay0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073202740 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'clockoverlay0' changed state to 1(NULL) successfully
+0:00:10.073218611 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<capsfilter0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.073232102 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<capsfilter0> completed state change to NULL
+0:00:10.073244048 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073259349 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 1(NULL) successfully
+0:00:10.073272865 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2479:gst_bin_element_set_state:<videotestsrc0> current READY pending VOID_PENDING, desired next NULL
+0:00:10.073286433 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<videotestsrc0> completed state change to NULL
+0:00:10.073298517 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<videotestsrc0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073316758 1102692 0x5627e8e35c00 INFO              GST_STATES gstbin.c:2935:gst_bin_change_state_func:<pipeline0> child 'videotestsrc0' changed state to 1(NULL) successfully
+0:00:10.073382546 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<autovideosink0-actual-sink-xvimage> removing pad 'sink'
+0:00:10.073414216 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<pipeline0> completed state change to NULL
+0:00:10.073429161 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2716:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:10.073462029 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking videotestsrc0:src(0x5627e90d6120) and capsfilter0:sink(0x5627e91cef20)
+0:00:10.073482756 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked videotestsrc0:src and capsfilter0:sink
+0:00:10.073504472 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking capsfilter0:src(0x5627e91cf170) and clockoverlay0:video_sink(0x5627e90d6370)
+0:00:10.073520554 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked capsfilter0:src and clockoverlay0:video_sink
+0:00:10.073533365 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "capsfilter0"
+0:00:10.073551518 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<capsfilter0> removing pad 'sink'
+0:00:10.073565726 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<capsfilter0> removing pad 'src'
+0:00:10.073587775 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking mux:src(0x5627e91cea80) and filesink:sink(0x5627e91cecd0)
+0:00:10.073603966 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked mux:src and filesink:sink
+0:00:10.073617198 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "filesink"
+0:00:10.073637530 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking vrecq:src(0x5627e91ce830) and mux:video_0(0x5627e91cf3c0)
+0:00:10.073652688 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked vrecq:src and mux:video_0
+0:00:10.073666680 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "mux"
+0:00:10.073687767 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking vtee:src_1(0x5627e91d4500) and vrecq:sink(0x5627e91ce5e0)
+0:00:10.073702426 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked vtee:src_1 and vrecq:sink
+0:00:10.073715124 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "vrecq"
+0:00:10.073736218 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking videoscale0:src(0x5627e91ce140) and autovideosink0:sink(0x5627e91d2050)
+0:00:10.073752314 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked videoscale0:src and autovideosink0:sink
+0:00:10.073767051 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "autovideosink0"
+0:00:10.073789248 1102692 0x5627e8e35c00 INFO              GST_STATES gstelement.c:2816:gst_element_continue_state:<fake-video-sink> completed state change to NULL
+0:00:10.073807367 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking sink:proxypad0(0x5627e91d4050) and fake-video-sink:sink(0x5627e91cf860)
+0:00:10.073820878 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked sink:proxypad0 and fake-video-sink:sink
+0:00:10.073834657 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<autovideosink0> removed child "fake-video-sink"
+0:00:10.073848349 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<fake-video-sink> removing pad 'sink'
+0:00:10.073868954 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<autovideosink0> removing pad 'sink'
+0:00:10.073893726 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking videoconvert0:src(0x5627e90d7a90) and videoscale0:sink(0x5627e90d7ce0)
+0:00:10.073908840 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked videoconvert0:src and videoscale0:sink
+0:00:10.073922328 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "videoscale0"
+0:00:10.073935937 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<videoscale0> removing pad 'sink'
+0:00:10.073949882 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<videoscale0> removing pad 'src'
+0:00:10.073969964 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking avdec_h264-0:src(0x5627e90d75f0) and videoconvert0:sink(0x5627e90d7840)
+0:00:10.073984873 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked avdec_h264-0:src and videoconvert0:sink
+0:00:10.073999008 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "videoconvert0"
+0:00:10.074012694 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<videoconvert0> removing pad 'sink'
+0:00:10.074025551 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<videoconvert0> removing pad 'src'
+0:00:10.074047958 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking queue0:src(0x5627e90d7150) and avdec_h264-0:sink(0x5627e90d73a0)
+0:00:10.074063080 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked queue0:src and avdec_h264-0:sink
+0:00:10.074077232 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "avdec_h264-0"
+0:00:10.074090051 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<avdec_h264-0> removing pad 'sink'
+0:00:10.074103034 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<avdec_h264-0> removing pad 'src'
+0:00:10.074161311 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking vtee:src_0(0x5627e91d42a0) and queue0:sink(0x5627e90d6f00)
+0:00:10.074177006 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked vtee:src_0 and queue0:sink
+0:00:10.074191725 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_re
+move_func:<pipeline0> removed child "queue0"
+0:00:10.074203267 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<queue0> removing pad 'sink'
+0:00:10.074217028 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<queue0> removing pad 'src'
+0:00:10.074238621 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking x264enc0:src(0x5627e90d6a60) and vtee:sink(0x5627e90d6cb0)
+0:00:10.074252537 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked x264enc0:src and vtee:sink
+0:00:10.074265223 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "vtee"
+0:00:10.074278930 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<vtee> removing pad 'src_0'
+0:00:10.074292190 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<vtee> removing pad 'src_1'
+0:00:10.074304541 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<vtee> removing pad 'sink'
+0:00:10.074325654 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2142:gst_pad_unlink: unlinking clockoverlay0:src(0x5627e90d65c0) and x264enc0:sink(0x5627e90d6810)
+0:00:10.074339248 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstpad.c:2197:gst_pad_unlink: unlinked clockoverlay0:src and x264enc0:sink
+0:00:10.074351743 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "x264enc0"
+0:00:10.074363112 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<x264enc0> removing pad 'sink'
+0:00:10.074374898 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<x264enc0> removing pad 'src'
+0:00:10.074393288 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "clockoverlay0"
+0:00:10.074405400 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<clockoverlay0> removing pad 'video_sink'
+0:00:10.074420476 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<clockoverlay0> removing pad 'src'
+0:00:10.074881118 1102692 0x5627e8e35c00 INFO           GST_PARENTAGE gstbin.c:1803:gst_bin_remove_func:<pipeline0> removed child "videotestsrc0"
+0:00:10.074896146 1102692 0x5627e8e35c00 INFO        GST_ELEMENT_PADS gstelement.c:875:gst_element_remove_pad:<videotestsrc0> removing pad 'src'
