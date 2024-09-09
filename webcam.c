@@ -213,7 +213,7 @@ main (int argc, char **argv)
       NULL);
 
   app.vrecq = gst_bin_get_by_name (GST_BIN (app.pipeline), "vrecq");
-  g_object_set (app.vrecq, "max-size-time", (guint64) 3000000000,
+  g_object_set (app.vrecq, "max-size-time", (guint64) 5000000000,
       "max-size-bytes", 0, "max-size-buffers", 0, "leaky", 2, NULL);
 
   app.vrecq_src = gst_element_get_static_pad (app.vrecq, "src");
